@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/repos/dpks4/basic/hello.ko := ccache arm-none-eabi-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/ubuntu/repos/dpks4/basic/hello.ko /home/ubuntu/repos/dpks4/basic/hello.o /home/ubuntu/repos/dpks4/basic/hello.mod.o ;  true
